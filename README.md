@@ -27,26 +27,25 @@ The combinational logic is implemented inside an always block, where the output 
 The reg data type is used to declare the output as it is driven by the procedural block.
 The Verilog code can be compiled and simulated using a Verilog simulator or an HDL tool.
 # LOGIC DIAGRAM
-![1](https://github.com/shankar-saradha/Simulation-project--Digital-Electronics/assets/93978702/bfec80e4-6fc1-4c4b-8d2c-0b86c3cae118)
+![logic diagram ](https://github.com/shankar-saradha/Simulation-project--Digital-Electronics/assets/93978702/222b7f01-5b15-46e0-a569-60082c147bfb)
 
 # NETLIST DIAGRAM
+![246592336-3671b818-5045-44cf-befa-955491502e15](https://github.com/shankar-saradha/Simulation-project--Digital-Electronics/assets/93978702/14f82222-7a3c-4622-89b8-67689f6fcd3a)
 
 # TIMING DIAGRAM
 ![de lol ](https://github.com/shankar-saradha/Simulation-project--Digital-Electronics/assets/93978702/c8c9fa46-3129-4e37-b134-b8f5c521af85)
 
 # PROGRAM
 ```c 
-module logic_circuit(
-  input A,
-  input B,
-  input C,
-  output reg F
-);
-
-  always @(A, B, C) begin
-    F = (~A & B) | (B & ~C) | (B & C) | (A & ~B & ~C);
-  end
-
+module lab(a,b,c);
+input a,b;
+output c;
+wire x;
+Not (x,a);
+or(c,x,b);
 endmodule
 ```
-# REFERENCE
+# RESULT 
+## Thus the given equation is minimised using k map and simulated the logic diagram using verilog.
+
+
