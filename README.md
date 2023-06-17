@@ -36,6 +36,11 @@ The Verilog code can be compiled and simulated using a Verilog simulator or an H
 ![de lol ](https://github.com/shankar-saradha/Simulation-project--Digital-Electronics/assets/93978702/c8c9fa46-3129-4e37-b134-b8f5c521af85)
 
 # PROGRAM
+Program By:
+```
+Name : Aakash.S
+Reg No.: 212221240001
+```
 ```c 
 module lab(a,b,c);
 input a,b;
