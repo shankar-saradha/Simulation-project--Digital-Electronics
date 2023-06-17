@@ -37,12 +37,8 @@ The Verilog code can be compiled and simulated using a Verilog simulator or an H
 
 # PROGRAM
 Program By:
-```
-Name : Aakash.S
-Reg No.: 212221240001
-```
 ```c 
-module lab(a,b,c);
+module simulation(a,b,c);
 input a,b;
 output c;
 wire x;
